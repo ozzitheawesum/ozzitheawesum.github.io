@@ -1,0 +1,157 @@
+body{
+background-color:white;
+text-decoration:none;
+background-image:url('snow.jpg');
+background-size:cover;
+
+}
+
+.container{
+	text-align:center;
+background-color:rgba(0,0,0,0.5);
+min-width: 82%;
+max-width:82%;
+margin-left:auto;
+margin-right:auto;
+color:white;
+
+	
+}
+.boss{
+	
+	background-color:rgba(0,0,0,0.5);
+	min-width:50%;
+	max-width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	color:white;
+	text-align:center;
+	padding:10px;
+	border-radius:50px;
+	
+	
+}
+.boss input[type="password"]{
+	border-radius:10px;
+	height:30px;
+	font-size:20px;
+	max-width:auto;
+	
+}
+.boss input[type="text"]{
+	border-radius:10px;
+	height:30px;
+	font-size:20px;
+	
+}
+.boss input[type="submit"]{
+	border-radius:10px;
+	height:30px;
+	font-size:20px;
+	
+}
+.up{
+	
+	background-color:rgba(0,0,0,0.5);
+	min-width:50%;
+	max-width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	color:white;
+	text-align:center;
+	padding:10px;
+	border-radius:50px;
+	
+}
+.up input[type="text"]{
+	border-radius:10px;
+	height:30px;
+	font-size:20px;
+	width:50%;
+	
+}
+.up input[type="password"]{
+	border-radius:10px;
+	height:30px;
+	font-size:20px;
+	width:50%;
+	
+}
+.up input[type="email"]{
+	border-radius:10px;
+	height:30px;
+	font-size:20px;
+	width:50%;
+	
+}
+.up input[type="radio"]{
+	
+	
+}
+.up input[type="select"]{
+	border-radius:10px;
+	height:30px;
+	font-size:20px;
+	
+}
+.up input[type="submit"]{
+	border-radius:10px;
+	height:30px;
+	font-size:20px;
+}
+a{text-decoration:none; color:white;}
+.tik{
+text-align:center;
+background-color:rgba(0,0,0,0.5);
+min-width: 82%;
+max-width:100%;
+margin-left:auto;
+margin-right:auto;
+color:white;
+border-radius:20px;
+min-height:30px;
+}
+.go{
+	text-align:leftwards;
+background-color:rgba(0,0,0,0.5);
+max-width: 40%;
+min-width:40%;
+margin-left:50%;
+margin-right:auto;
+color:white;
+border-radius:20px;
+min-height:30px;
+font-size:30px;
+padding-left:70px;
+	
+}
+.go input[type="text"]{
+	border-radius:10px;
+	height:30px;
+font-size:20px;
+width:50%;
+}
+.go textarea[type="text"]{
+	border-radius:10px;
+	height:30px;
+font-size:20px;
+width:8
+50%;
+}
+.go input[type="submit"]{
+	border-radius:10px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+}
+textarea{ background-color: white;
+font-family:Optima;
+border-radius:10px;
+font-size:20px;
+width:50%;
+}
+select{
+	font-size:20px;
+	border-radius:10px;
+	font-family:'Trebuchet MS';
+}

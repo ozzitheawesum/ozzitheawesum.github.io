@@ -32,7 +32,7 @@
 }
 .coming-soon{
 	z-index:1000;
-	position:absolute;
+	position:fixed;
 	bottom:20%;
 	left:25%;	
     font-family: 'BebasNeueRegular', 'Arial Narrow', sans-serif;

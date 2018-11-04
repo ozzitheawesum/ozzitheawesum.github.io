@@ -1,3 +1,14 @@
+.coming-soon{
+	z-index:1000;
+	position:fixed;
+	bottom:35%;
+	left:20%;	
+    font-family: 'BebasNeueRegular', 'Arial Narrow', sans-serif;
+    font-size: 160px;
+    padding: 0 45% 100px 100px;
+    line-height: 120px;
+    color: rgba(169,3,41, 0.8);
+}
 .cb-slideshow,
 .cb-slideshow:after {
     position: fixed;
@@ -30,17 +41,7 @@
     -ms-animation: imageAnimation 36s linear infinite 0s;
     animation: imageAnimation 36s linear infinite 0s;
 }
-.coming-soon{
-	z-index:1000;
-	position:fixed;
-	bottom:20%;
-	left:25%;	
-    font-family: 'BebasNeueRegular', 'Arial Narrow', sans-serif;
-    font-size: 160px;
-    padding: 0 45% 100px 100px;
-    line-height: 120px;
-    color: rgba(169,3,41, 0.8);
-}
+
 .cb-slideshow li:nth-child(1) span { background-image: url(../images/6.jpg) }
 .cb-slideshow li:nth-child(2) span {
     background-image: url(../images/5.jpg);

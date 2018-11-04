@@ -1,13 +1,13 @@
 .coming-soon{
 	z-index:1000;
-	position:fixed;
+	position:relative;
 	bottom:35%;
 	left:20%;	
-    font-family: 'BebasNeueRegular', 'Arial Narrow', sans-serif;
+    font-family:'BebasNeueRegular', 'Arial Narrow', sans-serif;
     font-size: 160px;
     padding: 0 45% 100px 100px;
     line-height: 120px;
-    color: rgba(169,3,41, 0.8);
+    color: rgbargba(59, 252, 29, 0.8);
 }
 .cb-slideshow,
 .cb-slideshow:after {

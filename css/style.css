@@ -3,9 +3,9 @@
 	position:relative;
 	bottom:35%;
 	left:20%;	
-    font-family:'BebasNeueRegular', 'Arial Narrow', sans-serif;
-    font-size: 160px;
-    padding: 0 45% 100px 100px;
+    font-family:'Pacifico','BebasNeueRegular', 'Arial Narrow', sans-serif;
+    font-size: 100px;
+    padding: 20% 10% 50px 30px;
     line-height: 120px;
     color: rgbargba(59, 252, 29, 0.8);
 }

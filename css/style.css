@@ -30,11 +30,11 @@
 
 h3#eme{
     font-family:'Pacifico','BebasNeueRegular', 'Arial Narrow', sans-serif;
-    font-size: 110px;
+    font-size: 90px;
 }
 h3#soon{
 	font-family:'"Allerta Stencil','BebasNeueRegular', 'Arial Narrow', sans-serif;
-    font-size: 90px;
+    font-size: 70px;
 }
 .coming-soon{
 	z-index:1000;
@@ -44,7 +44,6 @@ h3#soon{
     width: 100%;
     text-align: center;
     font-family:'Pacifico','BebasNeueRegular', 'Arial Narrow', sans-serif;
-    font-size: 100px;
     padding: 20px 20px 20px 20px;
     line-height: 120px;
     color: rgba(255, 255, 255, 0.8);

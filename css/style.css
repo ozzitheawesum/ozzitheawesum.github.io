@@ -31,26 +31,25 @@
 h3#eme{
     color:orange;
     font-family:'Pacifico','BebasNeueRegular', 'Arial Narrow', sans-serif;
-    font-size: 110px;
+    font-size: 8vw;
+line-height: 1.5em;
 }
 h3#soon{
     color:orange;
 	font-family:'Pacifico','BebasNeueRegular', 'Arial Narrow', sans-serif;
-    font-size: 90px;
+    font-size: 7vw;
+line-height: 1.5em;
 }
 .maintext{
     opacity: 0.75;
 	z-index:2;
     position: relative;
-    left: 20px;
-    top: 20%;
+    
+    top: 25%;
     width: 100%;
     text-align: center;
     font-family:'Pacifico','BebasNeueRegular', 'Arial Narrow', sans-serif;
-    font-size: 100px;
-    padding: 20px 30px 20px 20px;
-    line-height: 120px;
-    color: rgba(255, 255, 255, 0.8);
+    line-height: 110px;
 }
 .cb-slideshow,
 .cb-slideshow:after {

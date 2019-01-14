@@ -1,6 +1,6 @@
 .social {
   position: absolute;
-    font-size:5vh;
+    font-size:25px;
     bottom:20%;
     width: 100%;
     text-align: center;
@@ -29,22 +29,26 @@
 
 
 h3#eme{
+    color:orange;
     font-family:'Pacifico','BebasNeueRegular', 'Arial Narrow', sans-serif;
-    font-size: 90px;
+    font-size: 110px;
 }
 h3#soon{
-	font-family:'"Allerta Stencil','BebasNeueRegular', 'Arial Narrow', sans-serif;
-    font-size: 70px;
+    color:orange;
+	font-family:'Pacifico','BebasNeueRegular', 'Arial Narrow', sans-serif;
+    font-size: 90px;
 }
-.coming-soon{
-	z-index:1000;
-	position: absolute;
-    left: 0;
+.maintext{
+    opacity: 0.75;
+	z-index:2;
+    position: relative;
+    left: 20px;
     top: 20%;
     width: 100%;
     text-align: center;
     font-family:'Pacifico','BebasNeueRegular', 'Arial Narrow', sans-serif;
-    padding: 20px 20px 20px 20px;
+    font-size: 100px;
+    padding: 20px 30px 20px 20px;
     line-height: 120px;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -168,7 +172,7 @@ h3#soon{
 	    -webkit-animation-timing-function: ease-out;
 	}
 	17% {
-	    opacity: 1;
+	    opacity: 0.9;
 	    -webkit-transform: scale(1.1) rotate(3deg);
 	}
 	25% {
@@ -188,7 +192,7 @@ h3#soon{
 	    -moz-animation-timing-function: ease-out;
 	}
 	17% {
-	    opacity: 1;
+	    opacity: 0.9;
 	    -moz-transform: scale(1.1) rotate(3deg);
 	}
 	25% {
@@ -208,7 +212,7 @@ h3#soon{
 	    -o-animation-timing-function: ease-out;
 	}
 	17% {
-	    opacity: 1;
+	    opacity: 0.9;
 	    -o-transform: scale(1.1) rotate(3deg);
 	}
 	25% {
@@ -228,7 +232,7 @@ h3#soon{
 	    -ms-animation-timing-function: ease-out;
 	}
 	17% {
-	    opacity: 1;
+	    opacity: 0.9;
 	    -ms-transform: scale(1.1) rotate(3deg);
 	}
 	25% {
@@ -248,7 +252,7 @@ h3#soon{
 	    animation-timing-function: ease-out;
 	}
 	17% {
-	    opacity: 1;
+	    opacity: 0.9;
 	    transform: scale(1.1) rotate(3deg);
 	}
 	25% {
@@ -260,7 +264,7 @@ h3#soon{
 
 /* Show at least something when animations not supported */
 .no-cssanimations .cb-slideshow li span{
-	opacity: 1;
+	opacity: 0.9;
 }
 @media screen and (max-width: 1140px) { 
 	.cb-slideshow li div h3 { font-size: 100px }
